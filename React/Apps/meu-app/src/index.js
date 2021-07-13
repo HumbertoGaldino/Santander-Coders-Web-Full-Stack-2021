@@ -4,11 +4,12 @@ import App from './Components/App';
 import App2 from './Components/App2';
 import App3 from './Components/App3';
 import App4 from './Components/App4';
+import App5 from './Components/App5';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App2 title = "Título">
+    {/* <App2 title = "Título">
       Conteúdo
     </App2>
 
@@ -16,13 +17,11 @@ ReactDOM.render(
       Conteúdo 2
     </App2>
 
-    <App3>
+    <App3 />
 
-    </App3>
+    <App4 /> */}
 
-    <App4>
-
-    </App4>
+    <App5 />
     
   </React.StrictMode>,
   document.getElementById('root')
